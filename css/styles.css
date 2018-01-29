@@ -1,0 +1,7 @@
+.jumbotron, p, h2, h3, .toppings {
+  text-align: center;
+}
+
+#results {
+  display: none;
+}
