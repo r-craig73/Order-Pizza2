@@ -4,8 +4,10 @@
 
 #results {
   display: none;
+  text-align: center;
+  background-color: #B9D5D5;
 }
 
 div[class*=col-sm-8] {
-  background-color: #00CC33
+  background-color: #00CC33;
 }
