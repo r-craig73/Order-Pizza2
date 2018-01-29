@@ -5,3 +5,7 @@
 #results {
   display: none;
 }
+
+div[class*=col-sm-8] {
+  background-color: #00CC33
+}

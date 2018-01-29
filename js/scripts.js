@@ -1,9 +1,8 @@
-//business side
 function Pizza (size, topping, finalCost) {
   this.size = size;
   this.topping = topping;
   this.finalCost = 0;
-}
+};
 
 Pizza.prototype.finalPrice = function() {
   if (this.size === "Small") {
@@ -17,7 +16,6 @@ Pizza.prototype.finalPrice = function() {
   }
 };
 
-// logic side
 $(document).ready(function() {
 
   $("#order").submit(function(event) {
